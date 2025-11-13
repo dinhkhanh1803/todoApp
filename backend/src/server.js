@@ -21,6 +21,3 @@ connectDB().then(() => {
   });
 });
 
-// MONGODB_CONNECTIONSTRING =
-//   "mongodb+srv://capy1803:j2wxNprmnnkBxxkT@cluster0.pxmog2w.mongodb.net/dev?retryWrites=true&w=majority&appName=Cluster0";
-// PORT = 5001;
