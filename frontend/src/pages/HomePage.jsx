@@ -10,7 +10,7 @@ import { visibleTaskLimit } from "@/lib/data";
 import React, { useEffect, useState } from "react";
 import { toast } from "sonner";
 
-const homePage = () => {
+const HomePage = () => {
   const [taskBuffer, setTaskBuffer] = useState([]);
   const [activeTaskCount, setActiveTaskCount] = useState(0);
   const [completeTaskCount, setCompleteTaskCount] = useState(0);
@@ -144,4 +144,4 @@ const homePage = () => {
   );
 };
 
-export default homePage;
+export default HomePage;
